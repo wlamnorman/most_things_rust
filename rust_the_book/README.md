@@ -1,16 +1,17 @@
-# Rust the book: study notes and code
+# rust the book: study notes and code
 https://doc.rust-lang.org/book/
 
-## Table of Contents
+## table of contents
 
-- [Rust the book: study notes and code](#Rust-the-book:-study-notes-and-code)
-  - [Chapter 1: Getting started](#Chapter-1:-Getting-started)
+- [rust the book: study notes and code](#rust-the-book:-study-notes-and-code)
+  - [1: getting started](#1:-getting-started)
+  - [2: guessing game](#2:-guessing-game)
 
 
 
-## Chapter 1: Getting started
+## 2: getting started
 ### 1.2: hello world
-* println! is a macro, not a function: macros end with a "!"
+* println! is a macro, not a function; macros end with a "!"
 * semicolons indicates end of line
 
 * compiling is done using rustc hello_world.rs, this outputs a binary executable `hello_world`
@@ -26,3 +27,5 @@ https://doc.rust-lang.org/book/
 * `cargo build --release` optimises code during compilation and builds a binary in ./target/release. This is for production/the final version of the binary.
 * `cargo run` compiles the `main.rs` code and runs the resulting binary, use `./target/release/CARGO_NAME` to run the optimised binary
 * `cargo check` quickly checks if your code compiles but does not result in a binary
+
+## guessing game
