@@ -1,3 +1,5 @@
+https://doc.rust-lang.org/book/
+
 # Chapter 1: Getting started
 ## 1.2: hello world
 * println! is a macro, not a function: macros end with a "!"
