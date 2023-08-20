@@ -1,7 +1,15 @@
+# Rust the book: study notes and code
 https://doc.rust-lang.org/book/
 
-# Chapter 1: Getting started
-## 1.2: hello world
+## Table of Contents
+
+- [Rust the book: study notes and code](#Rust-the-book:-study-notes-and-code)
+  - [Chapter 1: Getting started](#Chapter-1:-Getting-started)
+
+
+
+## Chapter 1: Getting started
+### 1.2: hello world
 * println! is a macro, not a function: macros end with a "!"
 * semicolons indicates end of line
 
@@ -10,7 +18,7 @@ https://doc.rust-lang.org/book/
 * a binary can be run by anyone as it is compiled (to machine code) ahead of time
 
 
-## 1.3: hello cargo
+### 1.3: hello cargo
 * cargo handles libraries given dependencies (in `Cargo.toml`)
 * packages of code are refered to as `crates`
 
