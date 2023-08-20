@@ -33,3 +33,4 @@ https://doc.rust-lang.org/book/
 hands on introduction by creating io-game to guess a random number; loop, matching, mutability, borrowing, String, parse, expect (Ok/Err), Ordering, using standard creates.
 
 ## 3: programming concepts
+notes are in corresponding interactive rust notebook (using the `excvr` kernel)
