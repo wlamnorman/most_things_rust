@@ -2,3 +2,4 @@
 target/
 *.lock
 rust.code-workspace
+.ipynb_checkpoints

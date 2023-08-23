@@ -34,3 +34,21 @@ hands on introduction by creating io-game to guess a random number; loop, matchi
 
 ## 3: programming concepts
 notes are in corresponding interactive rust notebook (using the `excvr` kernel)
+
+## 4: ownership
+"All programs have to manage the way they use a computer’s memory while running. Some languages have garbage collection that regularly looks for no-longer-used memory as the program runs; in other languages, the programmer must explicitly allocate and free the memory. Rust uses a third approach: memory is managed through a system of ownership with a set of rules that the compiler checks."
+
+### stack and heap
+**the stack**
+* LIFO (last in first out)
+* data stored on stack must have a known, fixed size such that the compiler can know how to manage memory
+* fast
+
+**the heap**
+when something is put on the stack the memory allocator finds an empty spot that is big enough, marks it as being in use and returns a `pointer` that refers to that spot in the memory, aka allocation on the heap.
+* slower due to the allocation process
+
+### ownership rules
+1. `Each value in Rust has an owner`.
+2. `There can only be one owner at a time`.
+3. `When the owner goes out of scope, the value will be dropped`.
